@@ -1,0 +1,11 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: fhir-integrator
+  description: "Production-ready FHIR R4 client for healthcare interoperability"
+  annotations:
+    github.com/project-slug: Sensible-Analytics/fhir-integrator
+spec:
+  type: service
+  lifecycle: experimental
+  owner: sensible-analytics/engineering
